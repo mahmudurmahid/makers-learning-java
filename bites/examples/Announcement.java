@@ -2,7 +2,7 @@ package bites.examples;
 
 public class Announcement {
     public static void main(String[] args) {
-        System.out.println(Announcement.celebration();
+        System.out.println(Announcement.celebration());
     }
 
     public static String celebration() {
