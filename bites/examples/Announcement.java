@@ -8,4 +8,8 @@ public class Announcement {
     public static String celebration() {
         return "Happy belated birthday";
     }
+
+    public static String changeOfPlan() {
+        return "There has been a change of plans";
+    }
 }
