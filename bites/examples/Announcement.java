@@ -6,6 +6,7 @@ public class Announcement {
         System.out.println(Announcement.changeOfPlan());
         System.out.println(Announcement.apology());
         System.out.println(Announcement.politeNotice());
+        System.out.println(Announcement.helpNeeded());
     }
 
     public static String celebration() {
@@ -22,5 +23,9 @@ public class Announcement {
 
     public static String politeNotice() {
         return "May I kindly ask you to...";
+    }
+
+    public static String helpNeeded() {
+        return "I need your help with...";
     }
 }
