@@ -5,6 +5,7 @@ public class Quotes {
         System.out.println(Quotes.albertEinstein());
         System.out.println(Quotes.mayaAngelou());
         System.out.println(Quotes.nelsonMandela());
+        System.out.println(Quotes.oscarWilde());
     }
 
     public static String albertEinstein() {
@@ -17,5 +18,9 @@ public class Quotes {
 
     public static String nelsonMandela() {
         return "It always seems impossible until it's done.";
+    }
+
+    public static String oscarWilde() {
+        return "Be yourself; everyone else is already taken.";
     }
 }
