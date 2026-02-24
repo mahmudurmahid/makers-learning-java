@@ -15,9 +15,9 @@ public class Order {
         this.total = total - amount;
     }
 
-    public Integer getTotal() {
-        return this.total;
-    }
+//    public Integer getTotal() {
+//        return this.total;
+//    }
 
     public String friendlyTotal() {
         return String.format("Thanks! The total value of your order is %s", this.total);
@@ -27,7 +27,7 @@ public class Order {
         Order order = new Order();
         order.addAmount(10);
         order.addDiscount(1);
-        Integer total = order.getTotal();
+//        Integer total = order.getTotal();
         String friendlyTotal = order.friendlyTotal();
 
         System.out.println(friendlyTotal);
