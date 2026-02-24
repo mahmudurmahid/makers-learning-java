@@ -4,11 +4,15 @@ public class Order {
     Integer total = 0;
 
     public void addAmount(Integer amount) {
-        this.total += amount;
+//        this.total += amount;
+//        this.total = this.total + amount;
+        this.total = total + amount;
     }
 
     public void addDiscount(Integer amount) {
-        this.total -= amount;
+//        this.total -= amount;
+//        this.total = this.total - amount;
+        this.total = total - amount;
     }
 
     public Integer getTotal() {
