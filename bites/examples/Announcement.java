@@ -2,31 +2,25 @@ package bites.examples;
 
 public class Announcement {
     public static void main(String[] args) {
-        Announcement myAnnouncement = new Announcement();
-        System.out.println(myAnnouncement.celebration());
-        System.out.println(myAnnouncement.changeOfPlan());
-        System.out.println(myAnnouncement.apology());
-        System.out.println(myAnnouncement.politeNotice());
-        System.out.println(myAnnouncement.helpNeeded());
+        Announcement.changeOfPlan();
+        Announcement.apology("I am very sorry, señor");
+        System.out.println(Announcement.politeNotice());
+        System.out.println(Announcement.helpNeeded());
     }
 
-    public String celebration() {
-        return "Happy belated birthday";
+    public static void changeOfPlan() {
+        System.out.println("There has been a change of plan");
     }
 
-    public String changeOfPlan() {
-        return "There has been a change of plans";
+    public static void apology(String politeMessage) {
+        System.out.println(politeMessage);
     }
 
-    public String apology() {
-        return "I am very sorry";
+    public static String politeNotice() {
+        return "This is a polite message";
     }
 
-    public String politeNotice() {
-        return "May I kindly ask you to...";
-    }
-
-    public String helpNeeded() {
-        return "I need your help with...";
+    public static String helpNeeded() {
+        return "I need your help, madam";
     }
 }
