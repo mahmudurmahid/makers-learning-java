@@ -2,12 +2,12 @@ package bites.examples;
 
 public class Announcement {
     public static void main(String[] args) {
-        Announcement newAnnouncement = new Announcement();
+        Announcement anotherAnnouncement = new Announcement();
 
-        System.out.println(newAnnouncement.changeOfPlan());
-        System.out.println(newAnnouncement.apology());
-        System.out.println(newAnnouncement.politeNotice());
-        System.out.println(newAnnouncement.helpNeeded());
+        System.out.println(anotherAnnouncement.changeOfPlan());
+        System.out.println(anotherAnnouncement.apology());
+        System.out.println(anotherAnnouncement.politeNotice());
+        System.out.println(anotherAnnouncement.helpNeeded());
     }
 
     public String changeOfPlan() {
