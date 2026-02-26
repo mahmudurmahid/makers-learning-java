@@ -7,8 +7,13 @@ public class FizzBuzz {
 //        System.out.println(FizzBuzz.play(5));
 //        System.out.println(FizzBuzz.play(15));
 
-        for (int number = 1; number <= 100; number ++) {
+//        for (int number = 1; number <= 100; number ++) {
+//            System.out.println(String.format("%s: %s", number, FizzBuzz.play(number)));
+//        }
+        int number = 1;
+        while (number <= 100) {
             System.out.println(String.format("%s: %s", number, FizzBuzz.play(number)));
+            number ++;
         }
     }
 
